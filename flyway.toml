@@ -86,3 +86,8 @@ includeStorageTablespace = false
 url = "jdbc:oracle:thin:@//10.1.140.101:1521/db106"
 schemas = [ "PRESUP01" ]
 displayName = "DB106"
+
+[environments.target2]
+url = "jdbc:oracle:thin:@//10.1.140.101:1521/db110"
+schemas = [ "PRESUP01" ]
+displayName = "DB110"
